@@ -1,8 +1,8 @@
 import requests
 
-url = 'http://bbnmout3lik.cf/index.php'
-
-r = requests.post(url, data={'name':"tayebdz",'submit':'submit'})
+url = 'http://bbnmout3lik.cf:80'
+headers = {'content-type' : 'application/json'}
+r = requests.post(url, data={'name':"tayebdz",'submit':'submit'}, headers)
 
 if('success' in r.text):
   print('==<successfuly added>==')
