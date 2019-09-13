@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://bbnmout3lik.cc/index.php'
+url = 'http://bbnmout3lik.cf/index.php'
 
 r = requests.post(url, data={'name':"tayebdz",'submit':'submit'})
 
